@@ -6,7 +6,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        int min=45;
+        int min=44;
         String s;
         if(min>=0&&min<15) s="Первая четверть";
         else if(min>=15&&min<30) s="Вторая четверть";
