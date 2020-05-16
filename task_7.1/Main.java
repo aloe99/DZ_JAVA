@@ -10,7 +10,7 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args)  {
-        System.out.println(isDateOdd("May 1 2013"));
+        System.out.println(isDateOdd("may 1 2013"));
     }
 
     public static Boolean isDateOdd(String date)  {
@@ -24,18 +24,18 @@ public class Main {
     }
 
     public static int getNumberOfMonth(String month){
-        if(month.equals("January"))   return 1;
-        if(month.equals("February"))  return 2;
-        if(month.equals("March"))     return 3;
-        if(month.equals("April"))   return 4;
-        if(month.equals("May"))      return 5;
-        if(month.equals("June"))     return 6;
-        if(month.equals("July"))     return 7;
-        if(month.equals("August"))   return 8;
-        if(month.equals("September")) return 9;
-        if(month.equals("October"))  return 10;
-        if(month.equals("November"))   return 11;
-        if(month.equals("December"))  return 12;
+        if(month.equals("january"))   return 1;
+        if(month.equals("february"))  return 2;
+        if(month.equals("march"))     return 3;
+        if(month.equals("april"))   return 4;
+        if(month.equals("may"))      return 5;
+        if(month.equals("june"))     return 6;
+        if(month.equals("july"))     return 7;
+        if(month.equals("august"))   return 8;
+        if(month.equals("september")) return 9;
+        if(month.equals("october"))  return 10;
+        if(month.equals("november"))   return 11;
+        if(month.equals("december"))  return 12;
         return 0;
     }
 
