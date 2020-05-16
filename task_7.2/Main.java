@@ -16,18 +16,18 @@ public class Main {
     public static void main(String[] args) throws IOException {
         ArrayList<String> m = new ArrayList<String>();
         m.add("0");
-        m.add("January");
-        m.add("February");
-        m.add("March");
-        m.add("April");
-        m.add("May");
-        m.add("June");
-        m.add("July");
-        m.add("August");
-        m.add("September");
-        m.add("October");
-        m.add("November");
-        m.add("December");
+        m.add("january");
+        m.add("february");
+        m.add("march");
+        m.add("april");
+        m.add("may");
+        m.add("june");
+        m.add("july");
+        m.add("august");
+        m.add("september");
+        m.add("october");
+        m.add("november");
+        m.add("december");
 
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter the name of month");
@@ -36,3 +36,4 @@ public class Main {
 
 
     }
+}
